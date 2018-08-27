@@ -50,20 +50,12 @@
 		18986E042133E3F5001FCB6C /* iOSUtil */ = {
 			isa = PBXGroup;
 			children = (
-				18986E0D2133E444001FCB6C /* Extenstions */,
+				18986E0E2133E455001FCB6C /* Calendar.swift */,
+				18986E102133E45B001FCB6C /* Array.swift */,
 				18986E052133E3F5001FCB6C /* iOSUtil.h */,
 				18986E062133E3F5001FCB6C /* Info.plist */,
 			);
 			path = iOSUtil;
-			sourceTree = "<group>";
-		};
-		18986E0D2133E444001FCB6C /* Extenstions */ = {
-			isa = PBXGroup;
-			children = (
-				18986E0E2133E455001FCB6C /* Calendar.swift */,
-				18986E102133E45B001FCB6C /* Array.swift */,
-			);
-			path = Extenstions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "iOSUtil"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "Bionime util"
   s.swift_version= "4.1"
   s.description  = "Bionime iOSUtil"
@@ -85,7 +85,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "iOSUtil/Extenstions/*.{h,m,swift}"
+  s.source_files  = "iOSUtil/*.{h,m,swift}"
 
   # s.public_header_files = "Classes/**/*.h"
 
