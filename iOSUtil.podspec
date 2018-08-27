@@ -16,14 +16,11 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "iOSUtil"
-  s.version      = "1.0.1"
+  s.version      = "1.0.0"
   s.summary      = "Bionime util"
   s.swift_version= "4.1"
   s.description  = "Bionime iOSUtil"
-
-  s.homepage     = "http://pd-sds2.bionime.com:10080/IOT/SDK/iOSUtil"
-
-  s.homepage     = "http://EXAMPLE/iOSUtil"
+  s.homepage     = "https://github.com/z0furu/iOSUtil"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -77,7 +74,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/z0furu/iOSUtil/tree/master.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/z0furu/iOSUtil.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -88,7 +85,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "iOSUtil/Source/Extenstions/*.{h,m,swift}"
+  s.source_files  = "iOSUtil/Extenstions/*.{h,m,swift}"
 
   # s.public_header_files = "Classes/**/*.h"
 
